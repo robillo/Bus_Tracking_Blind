@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:id="@+id/linearMain">
+
+    <Spinner
+        android:id="@+id/spnBatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/strDept"
+        android:layout_margin="10sp"/>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            app:cardBackgroundColor="#ffffff">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:onClick="getDetails"
+                android:layout_height="wrap_content"
+                android:text="Get Details"
+                android:background="?attr/selectableItemBackground"/>
+
+        </android.support.v7.widget.CardView>
+  
+</LinearLayout>
+</ScrollView>

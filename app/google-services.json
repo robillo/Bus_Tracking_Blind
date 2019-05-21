@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "675471508105",
+    "firebase_url": "https://kannu-app.firebaseio.com",
+    "project_id": "kannu-app",
+    "storage_bucket": "kannu-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675471508105:android:209b2de1b3614ec1",
+        "android_client_info": {
+          "package_name": "com.bus_tracking.system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675471508105-vogdaesp80odgg38rk1stnvhlcit189m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bus_tracking.system",
+            "certificate_hash": "53b8c1d43090c2a8b331bc8da503714a3dbde022"
+          }
+        },
+        {
+          "client_id": "675471508105-d0tfrrki8ar67r929mgr6rog6mp1e8a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO8Hk7KBZ6SvWP2uf3bp8ry28EkWulwww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675471508105-d0tfrrki8ar67r929mgr6rog6mp1e8a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
